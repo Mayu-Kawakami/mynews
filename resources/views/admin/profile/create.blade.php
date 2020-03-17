@@ -22,29 +22,29 @@
                     
                     <div class="form-group row">
                         <label class="col-md-2">氏名</label>
-                        <div class="col-md-8">
+                        <div class="col-md-10">
                             <input type="text" class="form-control" name="name" value="{{ old('name') }}">
                         </div>
                     </div>
                     
                     <div class="form-group row">
                         <label class="col-md-2">性別</label>
-                        <div class="rodio-inline">
-                        　<input type="radio"  name="gender" value="man">男性
-　　　　　　　　　　　　　<input type="radio"  name="gender" value="woman">女性　
+                        <div class="row col-md-10">
+                        　<label><input type="radio"  name="gender" value="man">男性</label>
+　　　　　　　　　　　　　<label><input type="radio"  name="gender" value="woman">女性</label>　
                         </div>
                     </div>    
                         
                     <div class="form-group row">
                         <label class="col-md-2">趣味</label>
-                        <div class="col-md-8">
+                        <div class="col-md-10">
                             <input type="text" class="form-control" name="hobby" value="{{ old('hobby') }}">
                         </div>
                     </div>
                     
-                    <div class="form-group-row">
+                    <div class="form-group row">
                         <label class="col-md-4">自己紹介</label>
-                        <div class="col-md-10">
+                        <div class="col-md-12">
                             <textarea class="form-control" name="introduction" rows="10">{{ old('inroduction') }}</textarea>
                         </div>
                     </div>
