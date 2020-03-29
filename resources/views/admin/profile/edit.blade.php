@@ -26,8 +26,13 @@
                      <div class= "form-group row">
                         <label class="col-md-2">性別</label>
                         <div class="row col-md-10">
+                        @if($profile_form->gender == 'man' )
+                        　<label><input type="radio"  name="gender" value="man" checked>男性</label>
+　　　　　　　　　　　　　<label><input type="radio"  name="gender" value="woman">女性</label>
+　　　　　　　　　　　　　@else
                         　<label><input type="radio"  name="gender" value="man">男性</label>
-　　　　　　　　　　　　　<label><input type="radio"  name="gender" value="woman">女性</label>　
+　　　　　　　　　　　　　<label><input type="radio"  name="gender" value="woman" checked>女性</label>
+                        @endif
                         </div>
                     </div>
                     
