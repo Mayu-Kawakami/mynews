@@ -5,6 +5,7 @@
     <div class="container">
         <div class="row">
             <h2>ニュース一覧</h2>
+            <p>過去に投稿したニュース</p>
         </div>
         <div class="row">
             <div class="col-md-4">
